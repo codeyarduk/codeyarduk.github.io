@@ -1,45 +1,144 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Poppins:900">
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Poppins:300">
-    <title>CodeYard</title>
-    <style>
-      body{
-        background-color: #12121E;
-      }
-      .title {
-        font-family: 'Poppins', sans-serif;
-        font-size: 72px;
-        color: white;
-        font-weight: 900;
-        letter-spacing: 0.1em;
-        line-height: 116%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 40vh;
-      }
-      .description {
-        font-family: 'Poppins', sans-serif;
-        font-size: 24px;
-        color: white;
-        font-weight: 300;
-        letter-spacing: 0.1em;
-        line-height: 116%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="background">
-      <p class="title"><span style="color:#49BC9F">*</span>CodeYard</p>
-      <p class="description">Our very own website,<br>Coming soon...</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="global-container">
+        <header>
+            <div class="header-left-flex">
+                <a id="header-left-icon"><img src="/static/icons/codeyard-icon.svg"></a>
+                <a id="header-left-name">CodeYard</a>
+            </div>
+            <div class="header-right-flex">
+                <a>Pricing</a>
+                <a>Our process</a>
+                <a>About us</a>
+                <a>Contact us</a>
+            </div>
+        </header>
+
+        <div class="hero-section">
+            <h1>CodeYard <span style="color: #49BC9F">=</span> <span style="color: #C964C0">{</span> Landing pages that convert <span style="color: #C964C0">}</span><span style="color: #F47A53">;</span></h1>
+            <p>Get carefully well written code bases with a focus on SEO</p>
+            <button>Work with us</button>
+        </div>
+
+        <div class="feature-section">
+            <div id="feature-section-container">
+                <div id="feature-section-customer">
+                    <p>Become our next happy customer?</p>
+                    <img src="/static/icons/arrow-1.svg">
+                </div>
+                <div id="feature-section-info">
+                    <div class="feature-section-block">
+                        <img src="/static/icons/clock.svg">
+                        <p class="feature-section-sub-heading">World Class Uptime</p>
+                        <p class="feature-section-description">We boast over 95% uptime yearly on our premium hosting</p>
+                    </div>
+                    <div class="feature-section-block" id="high-conversions">
+                        <img src="/static/icons/bolt.svg">
+                        <p class="feature-section-sub-heading">High Conversions</p>
+                        <p class="feature-section-description">High converting landing pages with a focus on sales and ease of use</p>
+                    </div>
+                    <div class="feature-section-block">
+                        <img src="/static/icons/search.svg">
+                        <p class="feature-section-sub-heading">Optimised SEO</p>
+                        <p class="feature-section-description">Search engine optimised to provide the highest possible Google ranking</p>
+                    </div>
+                </div>
+                <p id="customer-satisfaction">We are proud of our <span style="font-weight: 600">100%</span> customer satisfaction rate</p>
+            </div>
+        
+        </div>
+
+        <div class="three-step-section">
+            <div class="three-step-section-box-left">
+                <p id="three-step-title">3 Step process</p>
+                <p class="three-step-body">1. Carefully construct your <span style="font-weight:600">dream</span> website with our team of highly qualified designers.</p>
+                <p class="three-step-body">2. Hand over to our team of expert developers to <span style="font-weight:600">carefully</span> turn your dream design into reality. </p>
+                <p class="three-step-body">3. Deliver your website to <span style="font-weight:600">YOU!</span> A fully functioning website instantly providing you with more paying customers.</p>
+            </div>
+            <div class="three-step-section-box-right">
+                <div class="three-step-section-left-flex">
+                    <img src="/static/icons/arrow-2.svg">
+                    <img src="/static/icons/arrow-2.svg">
+                </div>
+                <div class="three-step-section-right-flex">
+                    <p><span style="color:#49BC9F">D</span>esign</p>
+                    <p><span style="color:#F47A53">D</span>evelop</p>
+                    <p><span style="color: #C964C0;">D</span>eliver</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="whats-included">
+            <div class="whats-included-container">
+                <h2 id="whats-included">Whats included</h2>
+                <div class="whats-included-item-container">
+                    <div class="whats-included-item">
+                        <p>Professionally designed and developed bespoke code website</p>
+                    </div>
+                    <div class="whats-included-item-middle">
+                        <p>Premium hosting and uptime</p>
+                    </div>
+                    <div class="whats-included-item">
+                        <p>Professional developer support</p>
+                    </div>
+                </div>
+                <div class="whats-included-item-container">
+                    <div class="whats-included-item">
+                        <p>7 Day turnover time from confirmation to functioning site</p>
+                    </div>
+                    <div class="whats-included-item-middle">
+                        <p>Unlimited development and feature change</p>
+                    </div>
+                    <div class="whats-included-item">
+                        <p>Unlimited design revisions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-us">
+            <div class="about-us-parent-container">
+                <div class="about-us-left-container">
+                    <img src="resources/photo-placeholder.png">
+                </div>
+                <div class="about-us-right-container">
+                    <h4>About us</h4>
+                    <p>We are a company that provide valuable <span style="font-weight: 600">high-converting</span> landing pages to your business, with the aim to maximise your conversion rate </p>
+                    <button>Get in touch</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="what-others-say">
+            <div class="what-others-say-parent-container">
+                <div class="what-others-say-top-container">
+                    <h3>What others say</h3>
+                </div>
+                <div class="what-others-say-bottom-container">
+                    <div class="what-others-say-bottom-container-item">
+                        <h5>David Rossiter</h5>
+                        <p>All our websites are search engine optimised to give you the highest Google ranking</p>
+                    </div>
+                    <div class="what-others-say-bottom-container-item">
+                        <h5>David Rossiter</h5>
+                        <p>All our websites are search engine optimised to give you the highest Google ranking</p>
+                    </div>
+                    <div class="what-others-say-bottom-container-item">
+                        <h5>David Rossiter</h5>
+                        <p>All our websites are search engine optimised to give you the highest Google ranking</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
-  </body>
+</body>
 </html>
