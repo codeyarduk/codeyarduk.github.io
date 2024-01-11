@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* GLOBAL STYLING */
+
+#global-container {
+    /* width: 71rem; */
+    width: 100%;
+    margin: 0rem;
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+* {
+    font-family: poppins;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #12121E;
+}
+
+/* END OF GLOBAL STYLING */
+
+/* HEADER STYLING */
+
+header {
+    width: 71rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.875rem;
+    font-family: poppins;
+    color: white;
+}
+
+.header-right-flex {
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin-top: 1.5rem;
+}
+
+.header-right-flex a {
+    margin-left: 4rem;
+}
+
+
+#header-left-name {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+#header-left-icon {
+    font-size: 3.375rem;
+    color: #49BC9F;
+}
+
+/* END OF HEADER STYLING */
+
+/* HERO STYLING */
+
+.hero-section {
+    width: 71rem;
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+    color: white;
+    
+}
+
+.hero-section h1 {
+    width: 60rem;
+    font-size: 4.5rem;
+    line-height: 110%;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-top: 1.5rem;
+}
+
+.hero-section button {
+    width: 24rem;
+    height: 3.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    color: white;
+    background-color: #F47A53;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 4rem;
+}
+
+/* END OF HERO STYLING */
+
+/* FEATURE SECTION STYLING */
+
+.feature-section {
+    background-color: #0C0C14;
+    /* border: solid red 1px; */
+    height: 47.375rem;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#feature-section-container {
+    width: 71rem;
+    /* border: solid red 1px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#feature-section-customer {
+    display: flex;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 9rem;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.3rem;
+}
+
+#feature-section-customer img {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    
+}
+
+#feature-section-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#feature-section-info img {
+    margin-top: 3.5rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+#feature-section-info p {
+    text-align: center;
+}
+
+.feature-section-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22rem;
+}
+
+.feature-section-sub-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+}
+
+.feature-section-description {
+    margin-top: 0.5rem;
+    font-size: 1.375rem;
+    font-weight: 200;
+}
+
+#high-conversions {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#customer-satisfaction {
+    margin-top: 4.5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* END OF FEATURE SECTION STYLING */
+
+/* THREE STEP PROCESS STYLING */
+
+.three-step-section {
+    height: 37.125rem;
+    color: white;
+    width: 71rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#three-step-title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    letter-spacing: 0.4rem;
+}
+
+.three-step-section-box {
+    width: 35rem;
+}
+
+.three-step-section-left-flex {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.three-step-section-box-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 5.6rem;
+    margin-left: 6rem;
+
+}
+
+.three-step-section-box-right img {
+    width: 2.2rem;
+    margin-top: 2em;
+}
+
+.three-step-section-box-right p {
+    font-size: 4.75rem;
+    letter-spacing: 0.4rem;
+}
+.three-step-section-left-flex {
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+}
+
+.three-step-body {
+    width: 37rem;
+    font-weight: 200;
+    font-size: 1.375rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+/* END OF THREE STEP PROCESS STYLING */
+
+/* WHATS INCLUDED STYLING */
+
+.whats-included {
+    background-color: #0C0C14;
+    width: 100%;
+    height: 31.6rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whats-included-container {
+    width: 71rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whats-included-item-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.whats-included-item,
+.whats-included-item-middle {
+    width: 23rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #FFF 2px;
+    height: 4.5rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    
+}
+
+.whats-included-item-middle {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.whats-included-item p {
+    /* border: solid red 1px; */
+    width: 18rem;
+    text-align: center;
+}
+
+.whats-included-item p,
+.whats-included-item-middle p {
+    width: 18rem;
+    text-align: center;
+}
+
+#whats-included {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+}
+
+/* END OF WHATS INCLUDED STYLING */
+
+/* ABOUT US STYLING */
+
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 35.625rem;
+}
+
+.about-us-parent-container {
+    width: 71rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-us-right-container {
+    width: 33.625rem;
+}
+
+.about-us-right-container h4 {
+    width: 536px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116%; /* 46.4px */
+    letter-spacing: 4px;
+}
+
+.about-us-right-container p {
+    width: 539px;
+    height: 136px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25.52px;
+    letter-spacing: 2.2px;
+    margin-top: 0.375rem;
+}
+
+.about-us-right-container button {
+    width: 21.5rem;
+    height: 3.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    color: white;
+    background-color: #F47A53;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.about-us-left-container {
+    width: 33.625rem;
+}
+
+/* END OF ABOUT US STYLING */
+
+
+/* WHAT OTHERS SAY STYLING */
+
+.what-others-say {
+    height: 39rem;
+    width: 100%;
+    background-color: #0C0C14;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.what-others-say-parent-container {
+    width: 71rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.what-others-say-bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.what-others-say-bottom-container-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 23rem;
+    height: 14.75rem;
+    background-color: #12121E;
+}
+
+.what-others-say-bottom-container-item p {
+    width: 254px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 116%; /* 18.56px */
+    letter-spacing: 1.6px;
+}
+
+.what-others-say-bottom-container-item h5 {
+    width: 173px;
+    height: 34px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%; /* 34px */
+}
+
+.what-others-say-top-container h3 {
+    width: 448px;
+    height: 60px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 46.4px */
+    letter-spacing: 4px;
+    margin-bottom: 2.5rem;
+}
