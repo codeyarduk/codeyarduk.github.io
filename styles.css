@@ -284,7 +284,7 @@ header {
 }
 
 .whats-included-item-container {
-    border: solid red 1px;
+    /* border: solid red 1px; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
