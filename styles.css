@@ -32,7 +32,8 @@ body {
 /* HEADER STYLING */
 
 header {
-    width: 71rem;
+    width: 70vw;
+    max-width: 71rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -69,7 +70,8 @@ header {
 /* HERO STYLING */
 
 .hero-section {
-    width: 71rem;
+    width: 70vw;
+    max-width: 71rem;
     margin-top: 9rem;
     margin-bottom: 9rem;
     color: white;
@@ -77,7 +79,8 @@ header {
 }
 
 .hero-section h1 {
-    width: 60rem;
+    width: 70vw;
+    max-width: 60rem;
     font-size: 4.5rem;
     line-height: 110%;
 }
@@ -107,7 +110,8 @@ header {
 .feature-section {
     background-color: #0C0C14;
     /* border: solid red 1px; */
-    height: 47.375rem;
+    max-height: 100%;
+    min-height: 47.375rem;
     color: white;
     width: 100%;
     display: flex;
@@ -116,7 +120,8 @@ header {
 }
 
 #feature-section-container {
-    width: 71rem;
+    width: 70vw;
+    max-width: 71rem;
     /* border: solid red 1px; */
     display: flex;
     flex-direction: column;
@@ -144,6 +149,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #feature-section-info img {
@@ -191,13 +197,17 @@ header {
 /* THREE STEP PROCESS STYLING */
 
 .three-step-section {
-    height: 37.125rem;
+    height: 100%;
+    min-height: 37.125rem;
     color: white;
-    width: 71rem;
+    width: 70vw;
+    max-width: 71rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+
 
 }
 
@@ -209,7 +219,8 @@ header {
 }
 
 .three-step-section-box {
-    width: 35rem;
+    width: 70vw;
+    max-width: 35rem;
 }
 
 .three-step-section-left-flex {
@@ -256,7 +267,8 @@ header {
 .whats-included {
     background-color: #0C0C14;
     width: 100%;
-    height: 31.6rem;
+    height: 100%;
+    min-height: 31.6rem;
     color: white;
     display: flex;
     align-items: center;
@@ -264,15 +276,18 @@ header {
 }
 
 .whats-included-container {
-    width: 71rem;
+    width: 70vw;
+    max-width: 74rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .whats-included-item-container {
+    border: solid red 1px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .whats-included-item,
@@ -324,9 +339,11 @@ header {
 }
 
 .about-us-parent-container {
-    width: 71rem;
+    width: 70vw;
+    max-width: 71rem;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -382,7 +399,9 @@ header {
 /* WHAT OTHERS SAY STYLING */
 
 .what-others-say {
-    height: 39rem;
+    height: 100%;
+    min-height: 39rem;
+
     width: 100%;
     background-color: #0C0C14;
     color: white;
@@ -404,6 +423,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
 }
 
