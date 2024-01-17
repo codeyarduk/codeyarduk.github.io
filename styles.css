@@ -70,6 +70,17 @@ header {
     color: #49BC9F;
 }
 
+
+@media (max-width: 768px) {
+    header {
+        width: 90vw;
+    }
+    .header-right-flex {
+        display: none;
+        margin-left: 0px;
+    }
+}
+
 /* END OF HEADER STYLING */
 
 /* HERO STYLING */
@@ -601,6 +612,7 @@ header {
     transition: transform 0.2s; /* Smooth transform transition */
     user-select: none; /* Prevent text selection */
     cursor: pointer; /* Change cursor to pointer */
+    margin-left: 0.25rem;
 }
 
 /* END OF FAQ STYLING */
