@@ -191,6 +191,8 @@ header {
     max-width: 60rem;
     font-size: 4.5rem;
     line-height: 110%;
+    transition: ease all .15s;
+
 }
 
 .hero-section p {
@@ -321,15 +323,15 @@ header {
     justify-content: center;
     /* border: solid red 1px; */
     letter-spacing: 0.3rem;
+
+
 }
 
 #feature-section-customer p {
-    border: solid red 1px;
     width: 100%;
     transition: ease all .15s;
 
 }
-
 
 #feature-section-customer img {
     margin-left: 2rem;
