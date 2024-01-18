@@ -181,6 +181,13 @@ header {
 
 /* END OF HEADER STYLING */
 
+
+
+
+
+
+
+
 /* HERO STYLING */
 
 .hero-section {
@@ -299,7 +306,7 @@ header {
     background-color: #0C0C14;
     /* border: solid red 1px; */
     max-height: 100%;
-    min-height: 47.375rem;
+    min-height: 47.376rem;
     color: white;
     width: 100%;
     display: flex;
