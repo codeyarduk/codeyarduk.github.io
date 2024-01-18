@@ -2,6 +2,10 @@
 
 /* GLOBAL STYLING */
 
+html {
+    scroll-behavior: smooth;
+}
+
 a { 
     color: inherit;
     text-decoration: none; 
@@ -79,7 +83,7 @@ header {
 }
 
 .header-container {
-    width: 100vw;
+    width: 70vw;
     max-width: 71rem;
     display: flex;
     flex-direction: row;
@@ -110,19 +114,37 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 
 #header-left-name {
     font-size: 1.75rem;
     font-weight: 600;
-    margin-left: 5px;
+    margin-left: 7px;
+    
+
     /* border: solid red 1px; */
+}
+
+#header-left-icon {
+    margin-top: 3px;
 }
 
 
 .header-mobile-view {
     display: none;
+}
+
+@media (max-width: 1160px) { 
+    .header-desktop-view {
+        display: none;
+        margin-left: 0px;
+    }
+
+    .header-mobile-view {
+        display: block;
+    }
 }
 
 @media (max-width: 768px) {
@@ -156,27 +178,6 @@ header {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* END OF HEADER STYLING */
 
@@ -217,20 +218,51 @@ header {
     margin-top: 4rem;
 }
 
+@media (max-width: 1160px) { 
+    .hero-section h1 {
+        width: 90vw;
+        max-width: 70vw;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 3.5rem;
+        font-style: normal;
+        font-weight: 700;
+
+        letter-spacing: 2px;
+    }
+
+    .hero-section p {
+        font-size: 1.3rem;
+    }
+
+    .hero-section button {
+        font-size: 0.85rem;
+        width: 18rem;
+        height: 3rem;
+        margin-top: 2rem;
+    }
+}
+
 @media (max-width: 768px) { 
 
     .hero-section {
         width: 90vw;
         max-width: 20rem;
-        margin-top: 6rem;
-        margin-bottom: 2rem;
+        margin-top: 8rem;
+        margin-bottom: 4rem;
+        /* border: solid red 1px; */
     }
 
     .hero-section h1 {
         width: 90vw;
-        max-width: 20rem;
+        max-width: 35rem;
+        color: #FFF;
+        font-family: Poppins;
         font-size: 2.5rem;
-        /* border: solid red 1px; */
+        font-style: normal;
+        font-weight: 700;
+        line-height: 46px; /* 115% */
+        letter-spacing: 2px;
     }
     
     .hero-section p {
@@ -242,6 +274,20 @@ header {
         width: 13rem;
         height: 2.375rem;
         margin-top: 2rem;
+    }
+    .hero-section-container {
+        width: 100vw;
+        margin-left: 10vw;
+        /* border: solid gold 1px; */
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+}
+
+@media (max-width: 393px) {
+    .hero-section h1 {
+        max-width: 20rem;
     }
 }
 
