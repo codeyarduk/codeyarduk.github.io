@@ -93,11 +93,13 @@ header {
 .header-right-flex {
     font-size: 1.125rem;
     font-weight: 300;
+    
     /* border: solid rgb(0, 255, 68) 1px; */
 }
 
 .header-right-flex a {
     margin-left: 4rem;
+
 }
 
 .header-left-flex {
@@ -322,7 +324,7 @@ header {
 }
 
 #feature-section-customer p {
-    /* border: solid red 1px; */
+    border: solid red 1px;
     width: 100%;
     transition: ease all .15s;
 
@@ -346,6 +348,8 @@ header {
     margin-top: 3.5rem;
     width: 3rem;
     height: 3rem;
+    transition: ease all .15s;
+
 }
 
 #feature-section-info p {
@@ -363,6 +367,8 @@ header {
     font-size: 1.5rem;
     font-weight: 600;
     margin-top: 2.5rem;
+    transition: ease all .15s;
+
 }
 
 .feature-section-description {
@@ -680,7 +686,7 @@ header {
     letter-spacing: 1.6px;
 }
 
-.what-others-say-bottom-container-item h5 {
+.what-others-say-bottom-container-item h4 {
     width: 173px;
     height: 34px;
     flex-shrink: 0;
