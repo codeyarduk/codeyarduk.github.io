@@ -207,8 +207,8 @@ header {
     height: 3.5rem;
     border-radius: 0.4rem;
     border: none;
-    color: #12121E;
-    background-color: #49BC9F;
+    color: #FFF;
+    background-color: #F47A53;
     font-weight: 600;
     font-size: 1rem;
     margin-top: 4rem;
@@ -622,8 +622,8 @@ header {
     height: 3.5rem;
     border-radius: 0.4rem;
     border: none;
-    color: #12121E;
-    background-color: #49BC9F;
+    color: #FFF;
+    background-color: #F47A53;
     font-weight: 600;
     font-size: 1rem;
 }
