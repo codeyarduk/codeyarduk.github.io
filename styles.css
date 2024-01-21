@@ -91,8 +91,13 @@ header {
 }
 
 .header-right-flex {
-    font-size: 1.125rem;
-    font-weight: 300;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
     
     /* border: solid rgb(0, 255, 68) 1px; */
 }
@@ -366,21 +371,39 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 22rem;
+    /* width: 22rem; */
+    /* display: flex; */
+    width: 304px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .feature-section-sub-heading {
-    font-size: 1.5rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
     font-weight: 600;
+    line-height: 124%; /* 24.8px */
+    letter-spacing: 2px;
     margin-top: 2.5rem;
     /* transition: ease all .15s; */
 
 }
 
 .feature-section-description {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 116%; /* 18.56px */
+    letter-spacing: 1.6px;
     margin-top: 0.5rem;
-    font-size: 1.375rem;
-    font-weight: 200;
+    /* font-size: 1.375rem; */
+    /* font-weight: 200; */
 }
 
 #high-conversions {
@@ -434,6 +457,7 @@ header {
 @media (max-width: 768px) { 
 
     #feature-section-customer p {
+        
         font-size: 1.75rem;
         color: #FFF;
         text-align: center;
@@ -446,6 +470,7 @@ header {
         width: 320px;
         height: 74px;
         flex-shrink: 0;
+        
     }
     #feature-section-customer-desktop-view-image {
         display: none;
@@ -471,59 +496,80 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+
 
 
 }
 
 #three-step-title {
+    
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 1rem;
     letter-spacing: 0.4rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 116%; /* 46.4px */
+    letter-spacing: 4px;
 }
 
-.three-step-section-box {
-    width: 70vw;
-    max-width: 35rem;
-}
 
 .three-step-section-left-flex {
     display: flex;
     flex-direction: column;
+
     
 }
 
 .three-step-section-box-right {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     line-height: 5.6rem;
-    margin-left: 6rem;
+
 
 }
 
 .three-step-section-box-right img {
     width: 2.2rem;
-    margin-top: 2em;
+    margin-top: 2rem;
 }
 
 .three-step-section-box-right p {
-    font-size: 4.75rem;
-    letter-spacing: 0.4rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116%;
+    letter-spacing: 7.6px;
 }
 .three-step-section-left-flex {
     margin-bottom: 3rem;
     margin-right: 2rem;
+    margin-top: 1.5rem;
+    
 }
 
 .three-step-body {
-    width: 37rem;
-    font-weight: 200;
-    font-size: 1.375rem;
-    margin-bottom: 0.5rem;
-    margin-left: 0.5rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 560px;
+    
+}
+
+.three-step-section-box-left {
+    width: 560px; 
+
 }
 
 /* END OF THREE STEP PROCESS STYLING */
@@ -553,7 +599,8 @@ header {
     /* border: solid red 1px; */
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    justify-content: center;
 }
 
 .whats-included-item,
@@ -567,11 +614,6 @@ header {
     margin-top: 0.5rem;
     border-radius: 0.5rem;
     
-}
-
-.whats-included-item-middle {
-    margin-right: 1rem;
-    margin-left: 1rem;
 }
 
 .whats-included-item p {
@@ -590,6 +632,18 @@ header {
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 2.5rem;
+}
+
+.whats-included-item-middle {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+@media ( max-width: 1350px ) {
+    whats-included-item-middle-tablet {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
 /* three-step-section */
 /* END OF WHATS INCLUDED STYLING */
