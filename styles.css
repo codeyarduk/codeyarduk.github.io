@@ -777,8 +777,11 @@ border: 0.8px solid rgba(255, 255, 255, 0.88);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     justify-content: space-between;
 }
+
 
 .about-us-right-container {
     width: 33.625rem;
@@ -798,18 +801,18 @@ border: 0.8px solid rgba(255, 255, 255, 0.88);
 }
 
 .about-us-right-container p {
-    width: 539px;
-    height: 136px;
-    flex-shrink: 0;
     color: #FFF;
     font-family: Poppins;
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 300;
-    line-height: 25.52px;
-    letter-spacing: 2.2px;
-    margin-top: 0.375rem;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+    letter-spacing: 1.6px;
+    width: 528px;
+height: 77px;
+flex-shrink: 0;
 }
+
 
 .about-us-right-container button {
     width: 21.5rem;
@@ -822,8 +825,62 @@ border: 0.8px solid rgba(255, 255, 255, 0.88);
     font-size: 1rem;
 }
 
-.about-us-left-container {
-    width: 33.625rem;
+@media ( max-width: 1400px ) {
+    .about-us-left-container  {
+        display: none;
+    }
+
+    .about-us-right-container {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-us-right-container h4 {
+        width: inherit;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .about-us-right-container p {
+        text-align: center;
+        margin-bottom: 1.5rem;
+        /* width: 320px; */
+        /* height: 101px; */
+        flex-shrink: 0;
+    }
+
+    .about-us-parent-container {
+        width: inherit;
+    }
+
+}
+
+@media ( max-width: 768px ) {
+
+    .about-us-right-container button {
+        /* display: flex; */
+        width: 320px;
+        padding: 12px 115px 12px 114.5px;
+        /* flex-direction: column; */
+        /* align-items: flex-start; */
+        /* gap: 20px; */
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        /* line-height: normal; */
+    }
+
+    .about-us-right-container p {
+        width: 320px;
+        height: 101px;
+
+    }
+
 }
 
 /* END OF ABOUT US STYLING */
