@@ -1229,23 +1229,23 @@ footer {
     color: #FFF;
     text-align: right;
     font-family: Poppins;
-    font-size: 48px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 116%; /* 55.68px */
-    letter-spacing: 4.8px;
+    line-height: 116%; /* 46.4px */
+    letter-spacing: 4px;
 }
 
 .footer-container-right-flex-top p {
     color: #FFF;
     text-align: right;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 116%; /* 27.84px */
-    letter-spacing: 2.4px;
-    width: 500px;
+    line-height: 132%; /* 26.4px */
+    letter-spacing: 2px;
+    max-width: 500px;
 }
 
 .footer-container-right-flex-bottom {
@@ -1278,23 +1278,23 @@ footer {
 #footer-container-left-flex-top-quick-link {
     color: #FFF;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 116%; /* 27.84px */
-    letter-spacing: 2.4px;
-    margin-bottom: 12px;
+    font-weight: 600;
+    line-height: 116%; /* 20.88px */
+    letter-spacing: 1.8px;
+    margin-bottom: 0.75rem;
 }
 
 .footer-container-left-flex-top-quick-links {
     color: #FFF;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 116%; /* 27.84px */
-    letter-spacing: 2.4px;
-    margin-bottom: 4px;
+    line-height: 116%; /* 20.88px */
+    letter-spacing: 1.8px;
+    margin-bottom: 0.375rem;
 }
 
 .footer-container-left-flex-top {
@@ -1305,21 +1305,111 @@ footer {
 #footer-container-left-flex-bottom-catch-us-online {
     color: #FFF;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 116%; /* 27.84px */
-    letter-spacing: 2.4px;
+    font-weight: 600;
+    line-height: 116%; /* 23.2px */
+    letter-spacing: 2px;
+    margin-bottom: 0.2rem;
 }
 
 #footer-container-left-flex-bottom-username {
     color: #49BC9F;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 116%; /* 27.84px */
-    letter-spacing: 2.4px;
+    line-height: 116%; /* 23.2px */
+    letter-spacing: 2px;
+}
+#footer-container-right-flex-bottom-mobile-view {
+    display: none;
+}
+@media ( max-width: 1164px ) {
+    footer {
+        background-image: url("./static/images/footer-mobile-image.svg");
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+    }
+    .footer-container-right-flex {
+        display: none;
+    }
+    .footer-container-left-flex {
+        flex-direction: row;
+        justify-content: center;
+        width: 70vw;
+    }
+    .footer-container-left-flex-bottom {
+        text-align: end;
+    }
+    .footer-container-left-flex-top {
+        margin-right: 10vw;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer-container-right-flex-bottom-mobile-view {
+        display: block;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media ( max-width: 393px ) {
+    footer {
+        height: 27.5rem;
+    }
+    .footer-container-left-flex {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .footer-container-left-flex-top-quick-links {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 116%; /* 16.24px */
+        letter-spacing: 1.4px;
+    }
+
+    .footer-container-left-flex-top-quick-link {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 116%; /* 19.72px */
+        letter-spacing: 1.7px;
+    }
+
+#footer-container-left-flex-bottom-catch-us-online {
+
+    color: #FFF;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 18.56px */
+    letter-spacing: 1.6px;
+}
+#footer-container-left-flex-bottom-username {
+    color: #49BC9F;
+text-align: right;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 116%; /* 18.56px */
+letter-spacing: 1.6px;
+}
 }
 
 /* END OF FOOTER STYLING */
