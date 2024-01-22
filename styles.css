@@ -675,6 +675,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 6.5rem;
+    margin-bottom: 6.5rem;
 }
 
 .whats-included-item-container {
@@ -685,29 +687,34 @@ header {
     justify-content: center;
 }
 
-.whats-included-item,
-.whats-included-item-middle {
+.whats-included-item {
     width: 23rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid #FFF 2px;
+    
     height: 4.5rem;
     margin-top: 0.5rem;
-    border-radius: 0.5rem;
+    /* border-radius: 0.5rem; */
+    margin: 0.5rem;
+    border-radius: 6px;
+border: 0.8px solid rgba(255, 255, 255, 0.88);
     
 }
+
+
 
 .whats-included-item p {
     /* border: solid red 1px; */
     width: 18rem;
     text-align: center;
-}
-
-.whats-included-item p,
-.whats-included-item-middle p {
-    width: 18rem;
+    color: #FFF;
     text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 #whats-included {
@@ -716,15 +723,39 @@ header {
     margin-bottom: 2.5rem;
 }
 
-.whats-included-item-middle {
-    margin-right: 1rem;
-    margin-left: 1rem;
-}
 
 @media ( max-width: 1350px ) {
     whats-included-item-middle-tablet {
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+}
+
+@media ( max-width: 768px ) {
+    .whats-included-item {
+        width: 20rem;
+    }
+
+    .whats-included-item p {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    #whats-included {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 116%; /* 32.48px */
+        letter-spacing: 2.8px;
+        margin-bottom: 1rem;
     }
 }
 /* three-step-section */
