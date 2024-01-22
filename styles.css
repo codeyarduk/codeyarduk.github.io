@@ -70,6 +70,7 @@ header {
     position: fixed;
     background: rgba(18,18,30, 0.995);
     width: 100vw;
+    z-index: 100;
 }
 
 .header-container {
@@ -456,6 +457,9 @@ header {
 
 @media (max-width: 768px) { 
 
+    #feature-section-customer {
+        flex-direction: column;
+    }
     #feature-section-customer p {
         
         font-size: 1.75rem;
@@ -477,7 +481,12 @@ header {
     }
     #feature-section-customer-mobile-view-image {
         display: block;
+        position: absolute;
+        padding-left: 260px;
+        padding-top: 50px;
+        z-index: 1;
     }
+
 }
 @media (max-width: 393px) {
 
@@ -488,27 +497,22 @@ header {
 /* THREE STEP PROCESS STYLING */
 
 #three-step-section {
-    height: 100%;
-    min-height: 37.125rem;
-    color: white;
-    width: 70vw;
-    max-width: 71rem;
+    /* height: 28rem; */
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    width: 70vw;
+    max-width: 71rem;
+    flex-direction: row;
+    padding-top:6.25rem;
+    padding-bottom:6.25rem;
+}
 
-
+.three-step-section-left-container {
 
 }
 
-#three-step-title {
-    
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    letter-spacing: 0.4rem;
+.three-step-section-left-container-title {
     color: #FFF;
     font-family: Poppins;
     font-size: 40px;
@@ -516,31 +520,42 @@ header {
     font-weight: 600;
     line-height: 116%; /* 46.4px */
     letter-spacing: 4px;
+    width: 560px;
+    height: 51px;
+    margin-bottom: 1rem;
 }
 
-
-.three-step-section-left-flex {
-    display: flex;
-    flex-direction: column;
-
-    
+.three-step-section-left-container-description {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    max-width: 560px;
 }
 
-.three-step-section-box-right {
+.three-step-section-right-container {
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
-    line-height: 5.6rem;
-
-
 }
 
-.three-step-section-box-right img {
-    width: 2.2rem;
-    margin-top: 2rem;
+.three-step-section-right-container-images {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    /* margin-top: 3rem; */
 }
 
-.three-step-section-box-right p {
+.three-step-section-right-container-images-desktop {
+    margin-top: 3rem;
+}
+
+.three-step-section-right-container-images-mobile {
+    display: none;
+}
+
+.three-step-section-right-container-text p {
     color: #FFF;
     font-family: Poppins;
     font-size: 76px;
@@ -549,27 +564,94 @@ header {
     line-height: 116%;
     letter-spacing: 7.6px;
 }
-.three-step-section-left-flex {
-    margin-bottom: 3rem;
-    margin-right: 2rem;
-    margin-top: 1.5rem;
-    
+
+@media ( max-width: 1415px ) {
+    #three-step-section {
+
+        flex-direction: column;
+        /* justify-content: center; */
+
+    }
+
+    .three-step-section-left-container {
+        /* margin-top: 6.25rem; */
+        margin-bottom: 3rem;
+    }
+
+    .three-step-section-right-container {
+        /* margin-bottom: 6.25rem; */
+
+    }
+
 }
 
-.three-step-body {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    width: 560px;
-    
-}
+@media (max-width: 768px) { 
+    .three-step-section-left-container {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* border: solid red 1px; */
+    }
 
-.three-step-section-box-left {
-    width: 560px; 
+    .three-step-section-left-container-title {
+        /* border: solid red 1px; */
+        width: inherit;
+        display: flex;
+        justify-content: center;
+        height: 36px;
+        flex-shrink: 0;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 116%; /* 32.48px */
+        letter-spacing: 2.8px;
+    }
 
+    .three-step-section-left-container-description {
+        width: 320px;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .three-step-section-right-container-text p {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 116%;
+        letter-spacing: 5.6px;
+
+    }
+
+    .three-step-section-right-container-images-desktop {
+        display: none;
+    }
+
+    .three-step-section-right-container-images-mobile {
+        display: block;
+    }
+
+    #three-step-section-right-container-images-mobile-top {
+        padding-top: 7rem;
+    }
+
+    #three-step-section-right-container-images-mobile-bottom {
+        padding-top: 1rem;
+    }
+
+    .three-step-section-right-container-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* END OF THREE STEP PROCESS STYLING */
