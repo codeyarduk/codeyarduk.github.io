@@ -1,0 +1,40 @@
+.contact-form {
+    margin-top: 12.5rem;
+    /* border: solid red 1px; */
+    /* height: 40rem; */
+}
+
+.contact-form h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    letter-spacing: 2.4px;
+    margin-bottom: 0.8rem;
+}
+
+.contact-form p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 116%; /* 23.2px */
+    letter-spacing: 2px;
+    margin-bottom: 2.5rem;
+}
+
+form {
+    border-radius: 6px;
+    border: 0.8px solid rgba(255, 255, 255, 0.88);
+    width: 560px;
+    height: 560px;
+    margin-bottom: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -220,6 +220,11 @@ header {
     margin-top: 4rem;
 }
 
+
+#work-with-us button::hover {
+    cursor: crosshair;
+}
+
 @media (max-width: 1160px) { 
     .hero-section h1 {
         width: 90vw;
