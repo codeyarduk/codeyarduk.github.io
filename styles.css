@@ -221,8 +221,8 @@ header {
 }
 
 
-#work-with-us button::hover {
-    cursor: crosshair;
+#hero-button button:hover {
+    cursor: pointer;
 }
 
 @media (max-width: 1160px) { 
@@ -511,9 +511,7 @@ header {
     padding-bottom:6.25rem;
 }
 
-.three-step-section-left-container {
-
-}
+/* work-with-us */
 
 .three-step-section-left-container-title {
     color: #FFF;
@@ -826,6 +824,10 @@ flex-shrink: 0;
     background-color: #F47A53;
     font-weight: 600;
     font-size: 1rem;
+}
+
+.about-us-right-container button:hover {
+    cursor:pointer;
 }
 
 @media ( max-width: 1400px ) {
