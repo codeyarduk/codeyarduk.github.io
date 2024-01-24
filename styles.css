@@ -1401,7 +1401,7 @@ footer {
     color: #FFF;
     text-align: right;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 700;
     line-height: 116%; /* 18.56px */
@@ -1411,7 +1411,7 @@ footer {
     color: #49BC9F;
 text-align: right;
 font-family: Poppins;
-font-size: 16px;
+font-size: 1rem;
 font-style: normal;
 font-weight: 400;
 line-height: 116%; /* 18.56px */
